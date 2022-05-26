@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Josefin Sans";
+    background: black;
+}
+
+.header {
+    background: black;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; 
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.logo {
+    height: 85px;
+}
+
+.tittle {
+    color: whitesmoke;
+    padding: 0 0 50px 100px;
+    font-size: 35px;
+}
+
+.parrafo {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.button {
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    height: 35px;
+    width: 120px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background: black;
+    color: goldenrod;
+    box-shadow: 10px;
+}
+
+.section {
+    /*background: red;*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.cama {
+    height: 500px;
+    margin-right: 70px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
