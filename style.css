@@ -41,7 +41,7 @@ body {
 
 .tittle {
     color: whitesmoke;
-    padding: 0 0 50px 100px;
+    padding: 0 0 50px 75px;
     font-size: 35px;
 }
 
@@ -49,7 +49,7 @@ body {
     font-size: 20px;
     color: whitesmoke;
     text-align: center;
-    margin: 50px;
+    padding: 50px;
 }
 
 
@@ -76,14 +76,15 @@ body {
     box-shadow: 10px;
 }
 
-.section {
+.section1 {
     /*background: red;*/
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .cama {
@@ -93,3 +94,117 @@ body {
     border-radius: 30px;
 }
 
+.section2 {
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+.parrafo2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.section3 {
+    background: black;
+    padding: 25px;
+}
+
+.section3 h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section3 p {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    width: 25%;
+}
+
+.article-father {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px;
+}
+
+/*.benefit1 h3 {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.benefit2 h3 {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.benefit3 h3 {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.benefit1 p {
+    padding: 15px;
+}*/
+
+.article-father h3 {
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.article-father p {
+    padding: 0 50px;
+}
+
+.section4 {
+    /*background: red; */
+}
+
+.section4 h2 {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.section4 p {
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.father h3 {
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.father p {
+    padding: 0 50px;
+}
+
+.Mati♥ {
+    color: whitesmoke;
+    padding: 10px;
+}
